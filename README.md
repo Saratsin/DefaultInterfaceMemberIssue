@@ -1,15 +1,19 @@
 # Java interfaces with default members issue
 
 ## Steps to reproduce
-### Conditions
+1. Run project with Min23 suffix
+2. Look at app screen output
+### Expected result
+"No error" is written as when you run project with Min24 suffix (the only difference between Min23 and Min24 projects is minSdkVersion in AndroidManifest.xml)
+### Actual Result
+AbstractMethodError is thrown and shown in output
+
+## Conditions
 1. Min SDK version for Xamarin.Android application is set to 23 or lower.
 2. Binding library with java interface with default method implementation is connected to the project
 3. C# class inherits from this java interface, default method is not implemented (thus, default implementation should be used)
 4. C# class is casted to the interface and default method is called
-### Expected result
-Default method implementation is invoked, everything works fine
-### Actual Result
-AbstractMethodError is thrown
+
 ## Current workarounds for this issue
 * Implement all default methods of the interface in C# class.
 * Implement class in Java and bind it to C#, in this case default methods work properly
