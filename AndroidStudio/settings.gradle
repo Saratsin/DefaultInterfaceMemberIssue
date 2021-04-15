@@ -1,0 +1,2 @@
+include ':Default Interface Member Issue Library'
+rootProject.name = "Default Interface Member Issue"
