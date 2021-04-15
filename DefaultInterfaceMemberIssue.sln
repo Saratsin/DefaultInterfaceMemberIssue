@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultInterfaceMemberIssue
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{A35EF82E-EBD8-4E99-853B-45CFE24138E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultInterfaceMemberIssueSampleMin23", "Samples\DefaultInterfaceMemberIssueSampleMin23\DefaultInterfaceMemberIssueSampleMin23.csproj", "{01B6BBC1-DE23-452E-A83C-F43370DDA158}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultInterfaceMemberIssueSampleMin23", "Samples\DefaultInterfaceMemberIssueSampleMin23\DefaultInterfaceMemberIssueSampleMin23.csproj", "{11B6BBC1-DE23-452E-A83C-F43370DDA158}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultInterfaceMemberIssueSampleMin24", "Samples\DefaultInterfaceMemberIssueSampleMin24\DefaultInterfaceMemberIssueSampleMin24.csproj", "{01B6BBC1-DE23-452E-A83C-F43370DDA158}"
 EndProject
@@ -19,12 +19,17 @@ Global
 		{73F43C00-3A27-4113-B4BA-2BF07514080C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F43C00-3A27-4113-B4BA-2BF07514080C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F43C00-3A27-4113-B4BA-2BF07514080C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B6BBC1-DE23-452E-A83C-F43370DDA158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B6BBC1-DE23-452E-A83C-F43370DDA158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B6BBC1-DE23-452E-A83C-F43370DDA158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B6BBC1-DE23-452E-A83C-F43370DDA158}.Release|Any CPU.Build.0 = Release|Any CPU
 		{01B6BBC1-DE23-452E-A83C-F43370DDA158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01B6BBC1-DE23-452E-A83C-F43370DDA158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B6BBC1-DE23-452E-A83C-F43370DDA158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B6BBC1-DE23-452E-A83C-F43370DDA158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{11B6BBC1-DE23-452E-A83C-F43370DDA158} = {A35EF82E-EBD8-4E99-853B-45CFE24138E8}
 		{01B6BBC1-DE23-452E-A83C-F43370DDA158} = {A35EF82E-EBD8-4E99-853B-45CFE24138E8}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution

@@ -28,8 +28,9 @@
   <ItemGroup>
     <Compile Include="Additions\**\*.cs" />
     <TransformFile Include="Transforms\**\*.xml" />
-    <LibraryProjectZip Include="..\AndroidStudio\Default Interface Member Issue Library\build\outputs\aar\Default Interface Member Issue Library-release.aar">
-      <Link>Jars\Default Interface Member Issue Library-release.aar</Link>
+    <LibraryProjectZip Include="Jars\Default Interface Member Issue Library.aar" Condition="!Exists('$(SolutionDir)\AndroidStudio\Default Interface Member Issue Library\build\outputs\aar\Default Interface Member Issue Library-release.aar')" />
+    <LibraryProjectZip Include="$(SolutionDir)\AndroidStudio\Default Interface Member Issue Library\build\outputs\aar\Default Interface Member Issue Library-release.aar" Condition="Exists('$(SolutionDir)\AndroidStudio\Default Interface Member Issue Library\build\outputs\aar\Default Interface Member Issue Library-release.aar')">
+        <Link>Jars\AndroidStudio.Default Interface Member Issue Library.aar</Link>
     </LibraryProjectZip>
   </ItemGroup>
 
